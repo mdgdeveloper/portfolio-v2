@@ -1,0 +1,45 @@
+.h-global{
+    display: flex;
+    justify-content: center;
+}
+
+.h-wrapper{
+    display: flex;
+    width: 75%;
+    align-items: center;
+}
+
+.h-left{
+    flex: 1;
+    padding: 50px;
+}
+
+.h-logo-img{
+    width: 70px;
+}
+
+
+.h-center{
+    flex: 1;
+}
+
+.h-right{
+    flex: 1;
+    padding: 50px;
+}
+
+.h-menu{
+    display: flex;
+}
+
+.h-menu-item{
+    margin-right: 40px;
+    border-bottom: 3px solid white;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.h-menu-item:hover{
+    border-bottom: 3px solid #555;
+}
+    

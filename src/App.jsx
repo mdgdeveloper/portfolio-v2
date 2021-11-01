@@ -1,11 +1,12 @@
 import './App.css'
+import Announce from './components/announce/Announce'
 
 function App() {
 
 
   return (
    <div>
-      App JS 
+      <Announce />
    </div>
   )
 }

@@ -1,6 +1,7 @@
 import './App.css'
 import Announce from './components/announce/Announce'
 import Header from './components/header/Header'
+import Main from './components/main/Main'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
    <div>
       <Announce />
       <Header />
+      <Main />
    </div>
   )
 }

@@ -5,6 +5,7 @@ import Main from './components/main/Main'
 import Work from './components/work/Work'
 import Social from './components/social/Social'
 import Study from './components/study/Study'
+import Footer from './components/footer/Footer'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Social />
       <Work />
       <Study />
+      <Footer />
    </div>
   )
 }

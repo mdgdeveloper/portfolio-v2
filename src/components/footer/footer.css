@@ -1,0 +1,22 @@
+.f-wrapper{
+    display: flex;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+.f-box{
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.f-copy{
+    margin-top: 0px;
+    padding-top: 5px;
+    color: #555;
+}

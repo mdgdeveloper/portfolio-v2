@@ -1,0 +1,13 @@
+.st-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.st-box{
+    width: 60%;
+}
+
+.st-title{
+    font-size: 30px;
+    font-weight: 700;
+}

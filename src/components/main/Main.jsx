@@ -8,7 +8,7 @@ const Main = () => {
         <div className="m-title">
           <h2 className="m-name">Sergio Madrigal</h2>
           <div className="m-desc-box">
-            <p className="m-desc">Ingeniero de Telecomuniaciones - Psicólogo - Estudiante de Matemáticas.</p>
+            <p className="m-desc">Ingeniero de Telecomuniaciones - Psicólogo - Estudiando mates.</p>
             <p className="m-desc">Desarrollador front-end en mis ratos libres.</p>
           </div>
         </div>

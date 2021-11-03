@@ -37,9 +37,6 @@
 }
 
 
-
-
-
 .s-twitter{
     margin-right: 10px;
     display: flex;
@@ -86,4 +83,30 @@
     background-color: #63ad68;
     width: 35px;
     border-radius: 5px;
+}
+
+
+
+@media screen and (max-width:480px) {
+
+    .s-list{
+        flex-direction: column;
+    }
+
+    .s-item{
+        margin:0;
+        p:0;
+    }
+
+    .s-box{
+        width: 80%;
+        padding: 20px 40px;
+    }
+
+    .s-item-in{
+        margin: 0;
+        padding: 0;
+        padding-bottom: 20px;
+    }
+
 }

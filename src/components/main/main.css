@@ -37,3 +37,30 @@
     color: #333;
     padding-bottom: 10px;
 }
+
+
+
+@media screen and (max-width:480px) {
+
+    .m-global{
+    margin-bottom: 0;
+    }
+
+    .m-wrapper{
+        flex-direction: column;
+        width: 100%;
+        padding: 30px;
+        margin: 0;
+    }
+
+    .m-name{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .m-desc{
+        font-size: 15px;
+        text-align: center;
+    }
+
+}

@@ -96,3 +96,47 @@
     display: flex;
     align-items: center;
 }
+
+
+
+@media screen and (max-width:480px) {
+
+    .st-wrapper{
+        margin-top: 0;
+        margin-bottom: 0px;
+        padding: 0px 30px;
+        padding-bottom: 30px;
+    }
+
+    .st-box{
+        width: 100%;
+    }
+    
+    .st-all{
+        flex-direction: column;
+    }
+
+    .st-title{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .st-item-title{
+        font-size: 18px;
+    }
+
+    .st-item-years{
+        font-size: 12px;
+    }
+
+    .st-item-center{
+        font-size: 12px;
+    }
+
+    .st-main-info{
+        display: none;
+    }
+    
+}

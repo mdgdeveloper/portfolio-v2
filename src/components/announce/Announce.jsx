@@ -17,7 +17,7 @@ const Announce = () => {
                 <div className="a-text">Actualizada la version 1.0 de la página web.</div>
             </div>
             <div className="a-right"><div className="a-close" onClick={closePanel}>
-                <HighlightOffRounded />
+                <HighlightOffRounded className="a-icon" />
                 </div></div>
         </div>
         </div>

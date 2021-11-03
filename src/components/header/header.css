@@ -50,3 +50,35 @@
     border-bottom: 3px solid #555;
 }
     
+
+@media screen and (max-width:480px) {
+
+    .h-wrapper{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .h-menu{
+        display: none;
+    }
+
+    .h-left{
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+
+    .h-logo-img{
+        width: 170px;
+    }
+
+    .h-global{
+        margin: 0;
+        padding: 0;
+    }
+
+    .h-right{
+        display: none;
+    }
+}

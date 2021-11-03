@@ -68,3 +68,21 @@
     padding-top: 2px;
     color: var(--main-blue);
 }
+
+
+
+@media screen and (max-width:480px) {
+  .sk-percentage-color {
+    width: 10%;
+  }
+  
+  .sk-percentage-white {
+    width: 10%;
+  }
+
+  .sk-list {
+  margin: 0;
+  padding: 20px;
+  }
+
+}

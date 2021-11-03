@@ -3,6 +3,8 @@
     padding-top: 10px;
     padding-bottom: 5px;
     background-color: var(--main-blue-light);
+    justify-content: center;
+    align-items: center;
 }
 
 .a-left{
@@ -28,4 +30,15 @@
 }
 .a-noDisplay{
     display: none;
+}
+
+
+@media screen and (max-width:480px) {
+
+    .a-text{
+        flex: 3;
+    }
+
+
+
 }

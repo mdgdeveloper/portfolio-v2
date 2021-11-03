@@ -1,0 +1,70 @@
+.sk-wrapper {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.sk-box {
+  width: 100%;
+}
+
+.sk-title {
+  font-size: 30px;
+}
+
+.sk-list {
+
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+  margin-left: 60px;
+}
+
+.sk-section {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.sk-item {
+  flex: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.sk-item-title {
+  font-size: 13px;
+  color: #888;
+  text-transform: uppercase;
+}
+
+.sk-percentage {
+  display: flex;
+  margin-top: 5px;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.sk-percentage-color {
+  width: 40px;
+  height: 11px;
+  background-color: var(--main-blue);
+}
+
+.sk-percentage-white {
+  width: 40px;
+  height: 11px;
+  background-color: #eee;
+}
+
+.sk-item-years{
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 2px;
+    color: var(--main-blue);
+}

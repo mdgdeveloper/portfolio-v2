@@ -3,7 +3,7 @@ import Profile from '../../img/profile.jpg';
 
 const Main = () => {
   return (
-    <div className="m-global">
+    <div className="m-global" id="home">
       <div className="m-wrapper">
         <div className="m-title">
           <h2 className="m-name">Sergio Madrigal</h2>

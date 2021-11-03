@@ -14,7 +14,7 @@ const Announce = () => {
         <div className="a-wrapper">
             <div className="a-left"></div>
             <div className="a-center">
-                <div className="a-text">Nuevo capitulo del podcast disponible: S01E01 El síndrome del impostor.</div>
+                <div className="a-text">Actualizada la version 1.0 de la página web.</div>
             </div>
             <div className="a-right"><div className="a-close" onClick={closePanel}>
                 <HighlightOffRounded />

@@ -2,9 +2,10 @@ import "./work.css";
 
 const Work = () => {
   return (
-    <div className="w-wrapper">
+    <div className="w-wrapper" id="work">
       <div className="w-box">
         <h2 className="w-title">Mi experiencia laboral</h2>
+        <p className="w-main-info">Los últimos años los he pasado trabajando en algunas cosas. Aquí tienes una pequeña lista.</p>
         <div className="w-list">
           <div className="w-entry">
             <div className="w-date">

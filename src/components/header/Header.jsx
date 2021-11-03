@@ -13,11 +13,11 @@ const Header = () => {
       <div className="h-center"></div>
       <div className="h-right">
           <div className="h-menu">
-              <div className="h-menu-item">Acerca</div>
-              <div className="h-menu-item">Articulos</div>
-              <div className="h-menu-item">Podcast</div>
-              <div className="h-menu-item">Proyectos</div>
-              <div className="h-menu-item">Contacto</div>
+              <div className="h-menu-item"><a href="#home">Acerca</a></div>
+              <div className="h-menu-item"><a href="#study">Estudios</a></div>
+              <div className="h-menu-item"><a href="#work">Experiencia</a></div>
+              <div className="h-menu-item"><a href="#projects">Proyectos</a></div>
+              <div className="h-menu-item"><a href="#contact">Contacto</a></div>
           </div>
       </div>
     </div>

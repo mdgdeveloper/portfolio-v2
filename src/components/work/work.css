@@ -1,8 +1,8 @@
 .w-wrapper{
     display: flex;
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #F6F8FC;
 }
 
@@ -13,7 +13,10 @@
 .w-title{
     font-size: 30px;
     font-weight: 700;
-    margin-bottom: 20px;
+}
+
+.w-main-info{
+    margin-bottom: 40px;
 }
 
 .w-list{
@@ -59,7 +62,8 @@
     top: 5px;
     width: 20px;
     height: 20px;
-    background-color: #89A398;
+    //background-color: #89A398;
+    background-color: var(--main-blue);
     border-radius:  50%;
     z-index: 1;
     box-shadow: rgba(135, 161, 150, 0.5) 0px 10px 8px 0px;

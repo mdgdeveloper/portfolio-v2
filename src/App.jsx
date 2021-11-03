@@ -6,6 +6,8 @@ import Work from './components/work/Work'
 import Social from './components/social/Social'
 import Study from './components/study/Study'
 import Footer from './components/footer/Footer'
+import Contact from './components/contact/Contact'
+
 
 function App() {
 
@@ -16,8 +18,9 @@ function App() {
       <Header />
       <Main />
       <Social />
-      <Work />
       <Study />
+      <Work />
+      <Contact />
       <Footer />
    </div>
   )
